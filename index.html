@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FIGMA Ninutsa</title>
+        <style>
+            .image{
+                width: 336px;
+                height: 240px;                   
+            }
+            .category{
+                width: 336px;
+                height: 20px;
+                color: #6941C6;
+            }
+            .title{
+                width: 296px;
+                height: 32px;
+                color: #101828;
+            }
+            .description{
+                width: 336px;
+                height: 72px;
+                color: #667085
+            }
+            .image2{
+                width: 40px;
+                height: 40px;
+                color: #AA9C75;
+                border-radius: 200px;
+                background-color: #AA9C75;
+                display: flex;
+                align-items: center;
+            }
+            .person{
+                width: 96px;
+                height: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #101828;
+                line-height: 20px;
+                display: flex;
+                align-items: center;                
+            }
+           .birthday{
+                width: 81px;
+                height: 20px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #667085;
+            }
+            .blog{
+                width: 384px;
+                height: 580px;
+                display: flex;
+                flex-direction: column;
+                box-shadow: 0px 12px 0px 4px #10182808;
+                padding-top: 24px;
+                padding-right: 24px;
+                padding-bottom: 32px;
+                padding-left: 24px;                
+            }   
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 1216px;
+                height:  580px;
+                gap: 32px;                
+            }          
+        </style>
+    </head>
+    <body>
+      <div class="container">
+       <div class="blog">
+         <img src="images/img2.jpg" class="image">
+        <span class="category">Product</span>
+        <span class="title">Migrating to Linear 101</span>
+        <p class="description">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.</p>
+    <div 
+       style="display:flex;">
+        <img src="images/img2(1).png" class="image2" >
+        <span class="person" style="display:flex;align-items: center; align-self:flex-start;">Phoenix Baker</span>
+        <span class="birthday" style="display:flex ;align-self: flex-end;flex-direction: column;">19 Jan 2022</span>                    
+</div>                   
+    </div>
+    <div class="blog">
+        <img src="images/image3.jpg" class="image">
+       <span class="category">Software Engineering</span>
+       <span class="title">Building your API Stack</span>
+       <p class="description">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.</p>
+    <div 
+      style="display:flex;">
+       <img src="images/image3(1).png"  style="background-color: #D4B5AD; border-radius: 200px;"  width="40px" height="40px">
+       <span class="person" style="display:flex;align-items: center; align-self:flex-start;">Lana Steiner</span>
+       <span class="birthday" style="display:flex ;align-self: flex-end;flex-direction: column;">18 Jan 2022</span>                                      
+   </div>
+    </div>
+   <div class="blog">
+    <img src="images/image4.jpg" class="image">
+   <span class="category">Management</span>
+   <span style="width: 296px;height: 64px;">Bill Walsh leadership lessons</span>
+   <p class="description">Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+<div 
+  style="display: flex;">
+   <img src="images/image4(1).png"  style="background-color:#ABB677; border-radius: 200px;"  width="40px" height="40px">
+   <span class="person" style="display:flex; align-items: center; align-self:flex-start;">Alec Whitten</span> 
+   <span class="birthday" style="display:flex; align-self:  flex-end; flex-direction: column;" >17 Jan 2022</span>                
+</div>                   
+ </div>
+    </div>      
+   </body>
+</html>
